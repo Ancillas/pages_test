@@ -1,3 +1,40 @@
+Package: puppet-common
+Source: puppet
+Version: 3.2.4-1puppetlabs1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 4084
+Depends: ruby | ruby-interpreter, libxmlrpc-ruby, libopenssl-ruby, ruby-shadow | libshadow-ruby1.8, libaugeas-ruby | libaugeas-ruby1.9.1 | libaugeas-ruby1.8, adduser, lsb-base, sysv-rc (>= 2.86) | file-rc, hiera (>= 1.0.0), facter (>= 1.6.12), ruby-rgen (>= 0.6.5)
+Recommends: lsb-release, debconf-utils
+Suggests: ruby-selinux | libselinux-ruby1.8, librrd-ruby1.9.1 | librrd-ruby1.8
+Conflicts: hiera-puppet
+Breaks: puppet (<< 2.6.0~rc2-1), puppetmaster (<< 0.25.4-1)
+Replaces: hiera-puppet
+Provides: hiera-puppet
+Section: admin
+Priority: optional
+Homepage: http://projects.puppetlabs.com/projects/puppet
+Description: Centralized configuration management
+ Puppet lets you centrally manage every important aspect of your system
+ using a cross-platform specification language that manages all the
+ separate elements normally aggregated in different files, like users,
+ cron jobs, and hosts, along with obviously discrete elements like
+ packages, services, and files.
+ .
+ Puppet's simple declarative specification language provides powerful
+ classing abilities for drawing out the similarities between hosts while
+ allowing them to be as specific as necessary, and it handles dependency
+ and prerequisite relationships between objects clearly and explicitly.
+ .
+ This package contains the puppet software and documentation.  For the startup
+ scripts needed to run the puppet agent and master, see the "puppet" and
+ "puppetmaster" packages, respectively.
+Filename: pool/precise/main/p/puppet/puppet-common_3.2.4-1puppetlabs1_all.deb
+MD5sum: 52aace801512fc46dd21644669583086
+SHA1: ad298a4ab0a2555400877993c1cffd0bf0f32f8c
+SHA256: 6f324ed802a4100b756f7b73a25b29c07631846bfe6126a6f5c310bfb83b14de
+Size: 976988
+
 Package: puppet
 Version: 3.2.4-1puppetlabs1
 Architecture: all
