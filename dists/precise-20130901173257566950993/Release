@@ -1,0 +1,27 @@
+Origin: Freight
+Label: Freight
+Suite: precise
+Codename: precise
+Components: main 
+Architectures: i386 amd64
+MD5Sum:
+ ae47c3674b1b81e6a0a85ded33bac89f 832 main/binary-amd64/Packages.gz
+ b341cd30a6bd746245e7d16992d1e842 84 main/binary-amd64/Release
+ e81c0ef44490e4781ea0f9f77783c0fd 1435 main/binary-amd64/Packages
+ ae47c3674b1b81e6a0a85ded33bac89f 832 main/binary-i386/Packages.gz
+ 9f170332a1eb7636b7764c28ddb8a12e 83 main/binary-i386/Release
+ e81c0ef44490e4781ea0f9f77783c0fd 1435 main/binary-i386/Packages
+SHA1Sum:
+ 4c1d730ddeea0a0beb6fced61494416a3b1df390 832 main/binary-amd64/Packages.gz
+ 15a784f3a220aed87016cf825ec9522a5139db65 84 main/binary-amd64/Release
+ 76f59a4dfb84e3c7ce46f7e85163d748254d1ab4 1435 main/binary-amd64/Packages
+ 4c1d730ddeea0a0beb6fced61494416a3b1df390 832 main/binary-i386/Packages.gz
+ 1db2f043592bf54eaeaefc75345c27a99af6ebe6 83 main/binary-i386/Release
+ 76f59a4dfb84e3c7ce46f7e85163d748254d1ab4 1435 main/binary-i386/Packages
+SHA256Sum:
+ 1106d3edd53896b76ebf08387e303ca285c89629fa206bf6701510f0f9db0bb5 832 main/binary-amd64/Packages.gz
+ 6edf9e46b3b637de48bd38bb88f6df23e810d9390fc62b692a71125510824cf9 84 main/binary-amd64/Release
+ 034e8c48ba43bd775f7908c302d375d18dafe5aa2015efddf6ec9b2937c6e49c 1435 main/binary-amd64/Packages
+ 1106d3edd53896b76ebf08387e303ca285c89629fa206bf6701510f0f9db0bb5 832 main/binary-i386/Packages.gz
+ 646a3240dad3c5b057f290472e0a8ffafda8b83b3b94ba7680cd66dd8230c7c4 83 main/binary-i386/Release
+ 034e8c48ba43bd775f7908c302d375d18dafe5aa2015efddf6ec9b2937c6e49c 1435 main/binary-i386/Packages
