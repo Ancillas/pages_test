@@ -1,3 +1,55 @@
+Package: facter
+Version: 1.7.2-1puppetlabs1
+Architecture: i386
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 249
+Depends: ruby | ruby-interpreter, libopenssl-ruby | libopenssl-ruby1.8 | libopenssl-ruby1.9.1, dmidecode, virt-what, pciutils
+Section: ruby
+Priority: optional
+Homepage: http://www.puppetlabs.com
+Description: Ruby module for collecting simple facts about a host operating system
+ Some of the facts are preconfigured, such as the hostname and the operating
+ system. Additional facts can be added through simple Ruby scripts.
+Filename: pool/precise/main/f/facter/facter_1.7.2-1puppetlabs1_i386.deb
+MD5sum: 97c72f702d9eee968e1865df746aee6a
+SHA1: 341639d2ccf1b6513bae567354e7ba6e62febd33
+SHA256: 18bf73a59a0e53594f7ab5449b35f21723979469ee3105ed66fdce4a26502128
+Size: 73120
+
+Package: hiera-puppet
+Version: 1.0.0-1puppetlabs1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 116
+Depends: ruby (>= 1.8.5), hiera (>= 1.0.0), puppet
+Section: utils
+Priority: extra
+Homepage: http://projects.puppetlabs.com/projects/hiera
+Description: A simple pluggable Hierarchical Database.
+ Hiera is a simple pluggable Hierarchical Database.
+Filename: pool/precise/main/h/hiera-puppet/hiera-puppet_1.0.0-1puppetlabs1_all.deb
+MD5sum: 56bc58241a09c9be2be15d6ce4bbacaa
+SHA1: 47d795ae2b92ca4a92fce265fa199294b889691f
+SHA256: 8547445cdadfc0df15a104877d14869d13b1dfdb2853ecada2ebd40a2e9ad5d1
+Size: 13692
+
+Package: hiera
+Version: 1.2.1-1puppetlabs1
+Architecture: all
+Maintainer: Puppet Labs <info@puppetlabs.com>
+Installed-Size: 51
+Depends: ruby | ruby-interpreter, libjson-ruby | ruby-json
+Section: utils
+Priority: extra
+Homepage: http://projects.puppetlabs.com/projects/hiera
+Description: A simple pluggable Hierarchical Database.
+ Hiera is a simple pluggable Hierarchical Database.
+Filename: pool/precise/main/h/hiera/hiera_1.2.1-1puppetlabs1_all.deb
+MD5sum: 5f040877582e8368e413bffb5fc68999
+SHA1: 51bacf3cdd35728571ce82b59ff7242f44e9b442
+SHA256: 0dc8601d5bf15e686f6600e3a2f65078cae95f0466841c1515c3a9c52b559036
+Size: 18708
+
 Package: puppet-common
 Source: puppet
 Version: 3.2.4-1puppetlabs1
@@ -65,4 +117,23 @@ MD5sum: e585ce25d3cbe16b42d0a318604012b5
 SHA1: 0d447294d95dbfeceea8a81766a819bceb8f73db
 SHA256: 44ef4474f42d315555f536f560f5afc5df6402ca7d4af31a9e6c8b5d0cd471eb
 Size: 68428
+
+Package: ruby-rgen
+Version: 0.6.5-1puppetlabs1
+Architecture: all
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Installed-Size: 409
+Depends: ruby | ruby-interpreter
+Section: ruby
+Priority: optional
+Homepage: http://ruby-gen.org/
+Description: A framework supporting Model Driven Software Development (MDSD)
+ RGen is a framework supporting Model Driven Software Development (MDSD). This
+ means that it helps you build Metamodels, instantiate Models, modify and
+ transform Models and finally generate arbitrary textual content from it.
+Filename: pool/precise/main/r/ruby-rgen/ruby-rgen_0.6.5-1puppetlabs1_all.deb
+MD5sum: 1bba0f6e65c4865054eca0432237a2b4
+SHA1: bcdf12fba44b1c4d89a3d99bcc00b052c4b3cc1a
+SHA256: f07b17339b91287f5a2d272ca4cf7a2321d104e587c66d26b581d24b207ba1f4
+Size: 82236
 
